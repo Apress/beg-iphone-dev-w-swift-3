@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11163.2" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11133"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlowWorker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F2e-Y3-xww">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="7PD-GQ-Lqx"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7w-Lg-hYT">
+                                <state key="normal" title="Start Working"/>
+                                <connections>
+                                    <action selector="doWork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qo9-1l-GCO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="F2e-Y3-xww" secondAttribute="trailing" id="2mf-fL-Rh0"/>
+                            <constraint firstItem="f7w-Lg-hYT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="4oU-jk-emZ"/>
+                            <constraint firstItem="F2e-Y3-xww" firstAttribute="top" secondItem="f7w-Lg-hYT" secondAttribute="bottom" constant="13" id="NgS-d6-BpH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F2e-Y3-xww" secondAttribute="bottom" constant="20" id="PxE-dN-kOZ"/>
+                            <constraint firstItem="7PD-GQ-Lqx" firstAttribute="leading" secondItem="f7w-Lg-hYT" secondAttribute="trailing" constant="8" id="aK7-Sj-rZL"/>
+                            <constraint firstItem="f7w-Lg-hYT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fPA-Yq-Xsf"/>
+                            <constraint firstItem="f7w-Lg-hYT" firstAttribute="centerY" secondItem="7PD-GQ-Lqx" secondAttribute="centerY" id="qHE-Gj-xEq"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="F2e-Y3-xww" secondAttribute="leading" id="zA6-xv-ui8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultsTextView" destination="F2e-Y3-xww" id="Znc-Va-3NS"/>
+                        <outlet property="spinner" destination="7PD-GQ-Lqx" id="e7T-IF-18X"/>
+                        <outlet property="startButton" destination="f7w-Lg-hYT" id="uz7-ja-lD7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="429"/>
+        </scene>
+    </scenes>
+</document>

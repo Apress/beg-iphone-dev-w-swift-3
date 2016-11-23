@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>More Settings</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Favorites</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Favorite Tea</string>
+			<key>Key</key>
+			<string>favoriteTea</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType </key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Favorite Captain</string>
+			<key>Key</key>
+			<string>favoriteCaptain</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType </key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Favorite Gadget</string>
+			<key>Key</key>
+			<string>favoriteGadget</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType </key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Favorite Alien</string>
+			<key>Key</key>
+			<string>favoriteAlien</string>
+			<key>DefaultValue</key>
+			<string>Vulcan</string>
+			<key>Values</key>
+			<array>
+				<string>Vulcan</string>
+				<string>Klingon</string>
+				<string>Romulan</string>
+				<string>Ferengi</string>
+				<string>Crystalline Entity</string>
+				<string>Cardassian</string>
+				<string>Kardashian</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Vulcan</string>
+				<string>Klingon</string>
+				<string>Romulan</string>
+				<string>Ferengi</string>
+				<string>Crystalline Entity</string>
+				<string>Cardassian</string>
+				<string>Kardashian</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

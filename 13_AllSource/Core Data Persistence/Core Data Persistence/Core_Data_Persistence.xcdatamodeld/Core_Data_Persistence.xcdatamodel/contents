@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Line" syncable="YES">
+        <attribute name="lineNumber" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lineText" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Line" positionX="-63" positionY="-18" width="128" height="73"/>
+    </elements>
+</model>

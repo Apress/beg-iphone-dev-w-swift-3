@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B603A2861BE444EB005BF7DF /* TinyPixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B603A2851BE444EB005BF7DF /* TinyPixView.swift */; };
+		B61C6CED1BE190D3009CC344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C6CEC1BE190D3009CC344 /* AppDelegate.swift */; };
+		B61C6CEF1BE190D3009CC344 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C6CEE1BE190D3009CC344 /* MasterViewController.swift */; };
+		B61C6CF11BE190D3009CC344 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C6CF01BE190D3009CC344 /* DetailViewController.swift */; };
+		B61C6CF41BE190D3009CC344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61C6CF21BE190D3009CC344 /* Main.storyboard */; };
+		B61C6CF61BE190D3009CC344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61C6CF51BE190D3009CC344 /* Assets.xcassets */; };
+		B61C6CF91BE190D3009CC344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61C6CF71BE190D3009CC344 /* LaunchScreen.storyboard */; };
+		B61C6D011BE1913C009CC344 /* TinyPixDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C6D001BE1913C009CC344 /* TinyPixDocument.swift */; };
+		B6FE031A1BE301D0007CC211 /* TinyPixUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FE03191BE301D0007CC211 /* TinyPixUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B603A2851BE444EB005BF7DF /* TinyPixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyPixView.swift; sourceTree = "<group>"; };
+		B61C6CE91BE190D3009CC344 /* TinyPix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyPix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61C6CEC1BE190D3009CC344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B61C6CEE1BE190D3009CC344 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B61C6CF01BE190D3009CC344 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B61C6CF31BE190D3009CC344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B61C6CF51BE190D3009CC344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61C6CF81BE190D3009CC344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61C6CFA1BE190D3009CC344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61C6D001BE1913C009CC344 /* TinyPixDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyPixDocument.swift; sourceTree = "<group>"; };
+		B6FE03191BE301D0007CC211 /* TinyPixUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyPixUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61C6CE61BE190D3009CC344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61C6CE01BE190D3009CC344 = {
+			isa = PBXGroup;
+			children = (
+				B61C6CEB1BE190D3009CC344 /* TinyPix */,
+				B61C6CEA1BE190D3009CC344 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61C6CEA1BE190D3009CC344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61C6CE91BE190D3009CC344 /* TinyPix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61C6CEB1BE190D3009CC344 /* TinyPix */ = {
+			isa = PBXGroup;
+			children = (
+				B61C6CEC1BE190D3009CC344 /* AppDelegate.swift */,
+				B61C6CEE1BE190D3009CC344 /* MasterViewController.swift */,
+				B61C6CF01BE190D3009CC344 /* DetailViewController.swift */,
+				B61C6D001BE1913C009CC344 /* TinyPixDocument.swift */,
+				B6FE03191BE301D0007CC211 /* TinyPixUtils.swift */,
+				B61C6CF21BE190D3009CC344 /* Main.storyboard */,
+				B61C6CF51BE190D3009CC344 /* Assets.xcassets */,
+				B61C6CF71BE190D3009CC344 /* LaunchScreen.storyboard */,
+				B61C6CFA1BE190D3009CC344 /* Info.plist */,
+				B603A2851BE444EB005BF7DF /* TinyPixView.swift */,
+			);
+			path = TinyPix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B61C6CE81BE190D3009CC344 /* TinyPix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61C6CFD1BE190D3009CC344 /* Build configuration list for PBXNativeTarget "TinyPix" */;
+			buildPhases = (
+				B61C6CE51BE190D3009CC344 /* Sources */,
+				B61C6CE61BE190D3009CC344 /* Frameworks */,
+				B61C6CE71BE190D3009CC344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyPix;
+			productName = TinyPix;
+			productReference = B61C6CE91BE190D3009CC344 /* TinyPix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61C6CE11BE190D3009CC344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Apress Inc";
+				TargetAttributes = {
+					B61C6CE81BE190D3009CC344 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W3TQ3J976L;
+						DevelopmentTeamName = "Molly Maskrey";
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = B61C6CE41BE190D3009CC344 /* Build configuration list for PBXProject "TinyPix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61C6CE01BE190D3009CC344;
+			productRefGroup = B61C6CEA1BE190D3009CC344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61C6CE81BE190D3009CC344 /* TinyPix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61C6CE71BE190D3009CC344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61C6CF91BE190D3009CC344 /* LaunchScreen.storyboard in Resources */,
+				B61C6CF61BE190D3009CC344 /* Assets.xcassets in Resources */,
+				B61C6CF41BE190D3009CC344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61C6CE51BE190D3009CC344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61C6D011BE1913C009CC344 /* TinyPixDocument.swift in Sources */,
+				B61C6CF11BE190D3009CC344 /* DetailViewController.swift in Sources */,
+				B603A2861BE444EB005BF7DF /* TinyPixView.swift in Sources */,
+				B6FE031A1BE301D0007CC211 /* TinyPixUtils.swift in Sources */,
+				B61C6CEF1BE190D3009CC344 /* MasterViewController.swift in Sources */,
+				B61C6CED1BE190D3009CC344 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B61C6CF21BE190D3009CC344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61C6CF31BE190D3009CC344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61C6CF71BE190D3009CC344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61C6CF81BE190D3009CC344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61C6CFB1BE190D3009CC344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B61C6CFC1BE190D3009CC344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61C6CFE1BE190D3009CC344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TinyPix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollymaskrey.TinyPix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B61C6CFF1BE190D3009CC344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TinyPix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollymaskrey.TinyPix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61C6CE41BE190D3009CC344 /* Build configuration list for PBXProject "TinyPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61C6CFB1BE190D3009CC344 /* Debug */,
+				B61C6CFC1BE190D3009CC344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61C6CFD1BE190D3009CC344 /* Build configuration list for PBXNativeTarget "TinyPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61C6CFE1BE190D3009CC344 /* Debug */,
+				B61C6CFF1BE190D3009CC344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61C6CE11BE190D3009CC344 /* Project object */;
+}
